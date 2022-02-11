@@ -1,5 +1,5 @@
 import React from 'react'
-import { View, Text, Image, FlatList } from 'react-native'
+import { View, FlatList } from 'react-native'
 import usersData from '../../assets/dummy-data/ChatRooms'
 import ChatMessages from '../chatMessages/index'
 
