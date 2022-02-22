@@ -1,7 +1,8 @@
 import React from "react";
-import { View, FlatList } from 'react-native'
+import { View, FlatList, SafeAreaView} from 'react-native'
 import Message from '../message'
 import chats from '../../assets/dummy-data/Chats'
+import MessageInput from '../MessageInput'
 
 const ChatPage = () => {
     return (
@@ -9,7 +10,7 @@ const ChatPage = () => {
             <FlatList
                 data={chats.messages}
                 renderItem={({ item }) =>
-                    <Message message={item} testing="hello" />
+                    <Message message={item} />
                 }
                 inverted
                 style={{
@@ -18,6 +19,7 @@ const ChatPage = () => {
                     height: '100%'
                 }}
             />
+            <MessageInput />
         </View>
     )
 }
