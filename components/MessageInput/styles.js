@@ -12,19 +12,14 @@ const styles = StyleSheet.create({
 
     buttonContainer: {
         position: 'absolute',
-        right: -35,
+        right: -30,
         bottom: 10,
-        width: 50,
-        height: 50,
+        width: 45,
+        height: 45,
         backgroundColor: '#33777f',
-        borderRadius: 25,
-        justityContent: 'center',
-        alignItems: 'center'
-    },
-
-    buttonText: {
-        color: 'white',
-        fontSize: 35,
+        borderRadius: 40,
+        justifyContent: 'center',
+        alignItems: 'center',
     },
 
     inputContainer: {
@@ -34,13 +29,15 @@ const styles = StyleSheet.create({
         borderWidth: 1,
         borderColor: 'lightgrey',
         backgroundColor: '#eeeeee',
-        justifyContent: 'center'
+        alignItems: 'center',
+        flexDirection: 'row'
     },
-
+    icon: {
+        marginHorizontal: 5
+    },
     textInput: {
-        padding: 10,
-        height: 50,
-        fontSize: 18,
+        flex: 1,
+        marginHorizontal: 5,
         color: 'black',
         textDecorationLine: 'none'
     }
