@@ -2,12 +2,13 @@ import { StyleSheet } from 'react-native'
 
 const styles = StyleSheet.create({
     root: {
-        position: 'absolute',
-        zIndex: 100,
+        position: 'relative',
         width: '90%',
+        bottom: 60,
+        height: 60,
         flexDireaction: 'row',
         padding: 10,
-        bottom: 0
+        
     },
 
     buttonContainer: {
