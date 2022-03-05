@@ -2,6 +2,8 @@ import { StyleSheet } from "react-native";
 
 const styles = StyleSheet.create({
     container: {
+        position: 'absolute',
+        zIndex: 20 ,
         flexDirection: 'row',
         padding: 10,
         backgroundColor: "#2f285f",
