@@ -7,16 +7,15 @@ import MessageInput from '../MessageInput'
 const ChatPage = () => {
     return (
         <View>
-           
             <FlatList
                 data={chats.messages}
                 renderItem={({ item }) =>
                     <Message message={item} />
                 }
-                inverted
+                
                 style={{
                     backgroundColor: '#0f063f',
-                    weight: '100%',
+                    width: '100%',
                     height: '100%'
                 }}
             />
